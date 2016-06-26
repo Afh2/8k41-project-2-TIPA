@@ -29,3 +29,5 @@
 распространяется под Лицензией на условиях "как есть",
 без гарантий или условий любого рода, явных или подразумеваемых.
 См. лицензию.
+![screenshot of sample](https://github.com/Afh2/8k41-project-2-TIPA/blob/master/Image1.jpg)
+![screenshot of sample](https://github.com/Afh2/8k41-project-2-TIPA/blob/master/Image2.jpg)
