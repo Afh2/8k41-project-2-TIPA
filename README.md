@@ -1,5 +1,5 @@
 # Органайзер для студента
-![screenshot of sample](https://github.com/Afh2/8k41-project-2-TIPA/blob/master/Poster.png)
+![screenshot of sample](https://github.com/Afh2/8k41-project-2-TIPA/blob/master/Poster.png) width="200"
 ##Описание
   Минималистическая программа, созданная для помощи студенту (студенту ТПУ) в организации рабочего дня. Приложение содержит карту Томска, 
 расписание занятий ТПУ и заметки.
