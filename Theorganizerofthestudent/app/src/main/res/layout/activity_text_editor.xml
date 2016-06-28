@@ -11,9 +11,9 @@
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="70dp"
-        android:onClick="onClickMapButton"
-        android:layout_height="50dp"
-        android:text="@string/sMapButtonText"
+        android:onClick="onClickOKButton"
+        android:layout_height="25dp"
+        android:text="OK"
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
@@ -23,52 +23,56 @@
         android:layout_alignParentTop="false"
         android:background="@android:color/holo_green_dark" />
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:onClick="onClickTimeTableButton"
-        android:layout_width="70dp"
-        android:layout_height="50dp"
-        android:text="@string/sTimeTablesButtonText"
-        android:id="@+id/button2"
-        android:background="@android:color/holo_green_dark"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
+        android:onClick="onClickXButton"
         android:layout_width="70dp"
-        android:layout_height="50dp"
-        android:text="@string/sNotesButtonText"
+        android:layout_height="25dp"
+        android:text="X"
         android:id="@+id/button3"
         android:background="@android:color/holo_green_dark"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true" />
 
-    <ListView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/listView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="120dp"
-        android:background="#ffffff"
-        android:clickable="true"
-        android:smoothScrollbar="false"
-        android:scrollingCache="false"
-        android:choiceMode="singleChoice" />
-
-    <Button
-        android:onClick="onClickNewNote"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Note"
-        android:id="@+id/button4"
-        android:layout_toEndOf="@+id/button"
-        android:layout_alignParentBottom="true"
+        android:inputType="text|textImeMultiLine|textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:enabled="true"
+        android:singleLine="false"
+        android:autoLink="none"
+        android:editable="false"
+        android:focusable="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="60dp"
-        style="@android:style/Holo.ButtonBar"
-        android:background="@android:color/holo_green_dark" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:typeface="sans"
+        android:linksClickable="false"
+        android:background="#ffffff"
+        android:textStyle="italic"
+        android:textIsSelectable="false"
+        android:layout_centerInParent="true"
+        android:focusableInTouchMode="true"
+        android:gravity="top"
+        android:clickable="false" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Note ×"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+
 </RelativeLayout>
